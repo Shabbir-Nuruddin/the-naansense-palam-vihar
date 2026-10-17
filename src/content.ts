@@ -1,0 +1,122 @@
+import "@fontsource/bowlby-one/400.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "The NaanSense",
+  sub: { en: "Naan specials, tandoor & rolls · Palam Vihar", hi: "नान स्पेशल, तंदूर और रोल · पालम विहार" },
+  banner: { en: "Delivery, takeaway & drive-through · New Palam Vihar Phase 2", hi: "डिलीवरी, टेकअवे और ड्राइव-थ्रू · न्यू पालम विहार फ़ेज़ 2" },
+  phone: "919354328883",
+  phoneDisplay: "+91 93543 28883",
+  lat: 28.5146186,
+  lon: 77.0174974,
+  hours: [[13, 23.5], [13, 23.5], [13, 23.5], [13, 23.5], [13, 23.5], [13, 23.5], [13, 23.5]],
+  theme: {
+    dark: true,
+    bg: "#120c08",
+    bg2: "#1b130d",
+    panel: "#21170f",
+    ink: "#f6efe7",
+    ink2: "#c4b7a9",
+    ink3: "#8d8073",
+    line: "#30241a",
+    accent: "#ff7a2f",
+    onAccent: "#1a0c03",
+    display: "Bowlby One",
+    weight: 400,
+    upper: true,
+  },
+  scene: "lanterns",
+  align: "left",
+  hero: {
+    title: [
+      { en: "Overnight dal makhani.", hi: "रात भर पकी दाल मखनी।" },
+      { en: "Naan that makes sense.", hi: "नान, जो समझ में आए।" },
+    ],
+    proof: {
+      en: "4.9 on Google from 71 reviews. Dal makhani, Italian cheese naan, chicken changezi, khameeri roti and rolls on the Dwarka Expressway side of Palam Vihar.",
+      hi: "गूगल पर 71 रिव्यू से 4.9। दाल मखनी, इटैलियन चीज़ नान, चिकन चंगेज़ी, ख़मीरी रोटी और रोल, पालम विहार में द्वारका एक्सप्रेसवे की तरफ़।",
+    },
+    fallback: "/img/p3.jpg",
+    slides: ["/img/p3.jpg", "/img/p6.jpg", "/img/p2.jpg"],
+  },
+  marquee: ["Dal Makhani", "Italian Cheese Naan", "Chur Chur Naan", "Chicken Changezi", "Khameeri Roti", "Mutton Rara", "Paneer Malai Tikka Roll"],
+  dishes: {
+    title: { en: "Start here", hi: "यहां से शुरू कीजिए" },
+    body: { en: "What diners told Google, word for word.", hi: "खाने वालों ने गूगल पर जो लिखा, शब्दशः।" },
+    layout: "cards",
+    items: [
+      { name: { en: "Paneer Malai Tikka Roll", hi: "पनीर मलाई टिक्का रोल" }, quote: "Amazing food, paneer malai tikka roll is a MUST TRY! Sufficient quantity and appropriate prices. New GO-TO spot!", img: "/img/p12.jpg" },
+      { name: { en: "Naan & Dal Makhani", hi: "नान और दाल मखनी" }, quote: "Delicious food. Perhaps the tastiest food items I've eaten in Gurgaon and NCR region. I would recommend all foodies to try out the Dal Makhani and Chicken Changhezi - Super delicious.", img: "/img/p1.jpg" },
+      { name: { en: "Paneer & Soya Tikka", hi: "पनीर और सोया टिक्का" }, quote: "Excellent food. Tried a few dishes and they were super tasty. Loved the soya malai tikka and the paneer roll.", img: "/img/p13.jpg" },
+    ],
+  },
+  gallery: {
+    title: { en: "Hot from the tandoor", hi: "तंदूर से गरमा-गरम" },
+    layout: "strip",
+    photos: [
+      { src: "/img/p3.jpg", alt: "Curry in a handi", wide: true },
+      { src: "/img/p6.jpg", alt: "Creamy curry" },
+      { src: "/img/p2.jpg", alt: "Naan with curries" },
+      { src: "/img/p10.jpg", alt: "Special chicken makhani" },
+      { src: "/img/p5.jpg", alt: "A spread of plates", wide: true },
+      { src: "/img/p9.jpg", alt: "Chicken tikka roll" },
+    ],
+  },
+  feature: {
+    kind: "thali",
+    title: { en: "The table regulars build", hi: "रेगुलर ग्राहकों की थाली" },
+    body: { en: "North Indian, done slow. Mix and match.", hi: "धीमी आंच पर बना उत्तर भारतीय खाना। मिलाकर खाइए।" },
+    img: "/img/p11.jpg",
+    items: [
+      { label: { en: "Dal makhani & cheese naan", hi: "दाल मखनी और चीज़ नान" }, quote: "Overnight cooked traditional Dal Maakhni is a delight anyday....The Italian Cheese naan is a must add to your meal..." },
+      { label: { en: "Changezi & khameeri roti", hi: "चंगेज़ी और ख़मीरी रोटी" }, quote: "Tried the chicken changezi... awesome taste.. reminds me of Old Delhi.. Khameeri roti is rare in this area...very much recommended." },
+      { label: { en: "Mutton rara", hi: "मटन रारा" }, quote: "Amazing experiences, must try mutton rara" },
+      { label: { en: "Tandoori chicken", hi: "तंदूरी चिकन" }, quote: "I ordered tandoori chicken for the first time from NaanSense... it was awesome, well packed.behavior of th owner was really good" },
+    ],
+  },
+  reviews: {
+    title: { en: "69 of 71 reviews are five stars", hi: "71 में से 69 रिव्यू पांच स्टार" },
+    rating: 4.9,
+    dist: [69, 0, 0, 0, 2],
+    quotes: [
+      { quote: "Best Dal makhani I've ever had. Quantity is good enough. So far the best food I've had at dwarka expressway. Pocket friendly too", stars: 5 },
+      { quote: "Lovely food… Tried out couple of dishes and all were amazing…", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "New Palam Vihar Phase 2", hi: "न्यू पालम विहार फ़ेज़ 2" },
+    img: "/img/p4.jpg",
+    alt: "The NaanSense sign at dusk",
+    address: { en: "F-146, Choma, Block F, New Palam Vihar Phase 2, Sector 110, Gurugram 122017", hi: "F-146, चोमा, ब्लॉक F, न्यू पालम विहार फ़ेज़ 2, सेक्टर 110, गुरुग्राम 122017" },
+    note: { en: "1 PM to 11:30 PM, every day. Delivery, takeaway and drive-through.", hi: "हर दिन दोपहर 1 से रात 11:30 तक। डिलीवरी, टेकअवे और ड्राइव-थ्रू।" },
+  },
+  build: {
+    title: { en: "Order your naan", hi: "अपना नान ऑर्डर कीजिए" },
+    body: { en: "Pick how you want it, tap your dishes and the time. It goes to WhatsApp exactly as you see it.", hi: "कैसे चाहिए, कौन सी डिश और कब, टैप करें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: {
+      label: { en: "How", hi: "कैसे" },
+      options: [
+        { name: { en: "Delivery", hi: "डिलीवरी" } },
+        { name: { en: "Takeaway", hi: "टेकअवे" } },
+        { name: { en: "Drive-through", hi: "ड्राइव-थ्रू" } },
+      ],
+    },
+    items: [
+      { en: "Dal Makhani", hi: "दाल मखनी" },
+      { en: "Italian Cheese Naan", hi: "इटैलियन चीज़ नान" },
+      { en: "Chur Chur Naan Combo", hi: "चूर चूर नान कॉम्बो" },
+      { en: "Chicken Changezi", hi: "चिकन चंगेज़ी" },
+      { en: "Khameeri Roti", hi: "ख़मीरी रोटी" },
+      { en: "Mutton Rara", hi: "मटन रारा" },
+      { en: "Paneer Malai Tikka Roll", hi: "पनीर मलाई टिक्का रोल" },
+    ],
+    people: false,
+    when: true,
+    hello: { en: "Hi NaanSense, I'd like:", hi: "नमस्ते NaanSense, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi NaanSense, I'd like to order. Delivery or takeaway: , items: , time: ",
+    hi: "नमस्ते NaanSense, मुझे ऑर्डर देना है। डिलीवरी या टेकअवे: , आइटम: , समय: ",
+  },
+  order: ["feature", "dishes", "build", "gallery", "reviews", "visit"],
+};
